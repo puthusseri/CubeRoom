@@ -14,4 +14,7 @@ public class Spin : MonoBehaviour {
 	void Update () {
 		transform.Rotate(Vector3 .up * spinValue * Time.deltaTime);
 	}
+	public void flipSpin() {
+		spinValue = -spinValue;
+	}
 }
